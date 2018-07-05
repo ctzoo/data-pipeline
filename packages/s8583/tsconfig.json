@@ -1,0 +1,25 @@
+{
+  "typeAcquisition": {
+    "enable": true,
+    "include": ["jest", "node"]
+  },
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": false,
+    "noImplicitAny": true,
+    "outDir": "lib",
+    "moduleResolution": "node",
+    "strictNullChecks": true,
+    "experimentalDecorators": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "importHelpers": true,
+    "lib": ["es2018"]
+  },
+  "files": ["src/index.ts"],
+  "include": ["./test"]
+}
