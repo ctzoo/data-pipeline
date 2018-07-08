@@ -10,9 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ramda": "^0.25.0"
+    "ramda": "^0.25.0",
+    "smart-buffer": "^4.0.1"
   },
   "devDependencies": {
+    "@types/node": "^10.5.2",
     "jest": "^23.2.0",
     "ts-jest": "^23.0.0",
     "tslint": "^5.10.0",
